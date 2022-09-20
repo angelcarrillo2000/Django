@@ -1,0 +1,55 @@
+{% extends "base.html" %} {% block titulo %} Inico {% endblock %} {% block contenido %}
+<div class="p-5 bg-light">
+    <div class="container">
+        <h1 class="display-3">Registro de Personal</h1>
+        <img src="" alt="">
+        <p class="lead">Administrar Pesonal</p>
+        <hr class="my-2">
+
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="{% url 'personas' %}" role="button">empezar</a>
+        </p>
+    </div>
+</div>
+<section class="home" id="home">
+
+    <div class="content">
+
+        <h3 data-aos="fade-up" data-aos-delay="300">ECUADOR</h3>
+        <p data-aos="fade-up" data-aos-delay="450">El País de los cuatro mundos</p>
+
+    </div>
+
+</section>
+</div>
+<style>
+    .home {
+        margin: 0 auto;
+        margin-top: 9rem;
+        width: 90%;
+        border-radius: 1rem;
+        background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url("https://www.planetware.com/wpimages/2020/01/ecuador-in-pictures-beautiful-places-to-photograph-quito.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 80vh;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-bottom: 5rem;
+    }
+</style>
+
+
+
+
+
+
+
+{% endblock %}
